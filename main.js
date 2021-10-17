@@ -32,6 +32,7 @@ const config = {
   data: data,
   options: {
     radius: 5,
+    hitRadius: 30,
     responsive: true,
     scales: {
       y: {
