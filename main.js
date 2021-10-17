@@ -21,6 +21,8 @@ const data = {
       label: 'Call of Duty Sales',
       fill: true,
       backgroundColor: gradient,
+      borderColor: '#fff',
+      pointBackgroundColor: '#555',
     },
   ],
 };
@@ -29,6 +31,7 @@ const config = {
   type: 'line',
   data: data,
   options: {
+    radius: 5,
     responsive: true,
     scales: {
       y: {
