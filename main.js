@@ -23,6 +23,15 @@ const config = {
   data: data,
   options: {
     responsive: true,
+    scales: {
+      y: {
+        ticks: {
+          callback: function (value) {
+            return '$' + value + 'm';
+          },
+        },
+      },
+    },
   },
 };
 
